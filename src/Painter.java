@@ -13,6 +13,8 @@ import java.util.Map;
  */
 class Painter {
     Map<GameObject.Type,Image > gameObjectSprites = new HashMap<GameObject.Type,Image >();
+
+    //в конструкторе грузим картинки
     public Painter(Frame parentFrame){
         try{
             gameObjectSprites.put(GameObject.Type.bed, ImageIO.read(new File("images\\bed.png")));
@@ -25,6 +27,7 @@ class Painter {
         }
     }
 
+    //все рисуем
     public void drawWorld(Graphics g, ArrayList<GameObject> gameObjects, int time, double foodCount){
         drawBackground(g);
         drawGameObjects(g, gameObjects);
@@ -40,7 +43,7 @@ class Painter {
 
     void drawGameObjects(Graphics g, ArrayList<GameObject> gameObjects){
         for(int i = 0; i < gameObjects.size();i++){
-            Image img = gameObjectSprites.get(gameObjects.get(i).type);
+            Image img = gameObjectSprites.get(gameObjects.get(i).getType());
             g.drawImage(img,
                     (int)gameObjects.get(i).getX() - img.getWidth(null)/2,
                     (int)gameObjects.get(i).getY() - img.getHeight(null)/2

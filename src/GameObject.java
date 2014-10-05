@@ -4,12 +4,12 @@
 public class GameObject {
     public enum Type{bed, bowl, dog, freesbi, man };
 
-    Type type;
-    public Type GetType(){return type;}
+    private Type type;
+    public Type getType(){return type;}
 
-    double x,y;
-    double aimX, aimY;
-    double speed;
+    private double x,y;
+    private double aimX, aimY;
+    private double speed;
 
     public double getX(){return x;}
     public void setX(double v){x = v; }
@@ -32,6 +32,7 @@ public class GameObject {
         this.speed = speed;
     }
 
+    //двигаемся на расстояние, равное speed, в направлении (aimX; aimY)
     public void updatePosition(){
         if(speed>0){
             double distanceToMove = Math.sqrt((aimX-x)*(aimX-x)+(aimY-y)*(aimY-y));

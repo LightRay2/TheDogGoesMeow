@@ -67,17 +67,20 @@
       <file leaf-file-name="FormMain.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FormMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="5" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0" vertical-offset="810" max-vertical-offset="3402">
+            <state line="70" column="91" selection-start="1900" selection-end="1900" vertical-scroll-proportion="0.0" vertical-offset="972" max-vertical-offset="1782">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WorldLogic.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="WorldLogic.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/WorldLogic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0" vertical-offset="1620" max-vertical-offset="2538">
-              <folding />
+            <state line="42" column="29" selection-start="1626" selection-end="1626" vertical-scroll-proportion="0.87738854" vertical-offset="556" max-vertical-offset="2700">
+              <folding>
+                <element signature="method#getTime#0;class#WorldLogic#0" expanded="true" />
+                <element signature="method#getFoodInBowl#0;class#WorldLogic#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,19 +88,30 @@
       <file leaf-file-name="GameObject.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GameObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="25" selection-start="1097" selection-end="1097" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1485">
-              <folding />
+            <state line="7" column="17" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1512">
+              <folding>
+                <element signature="method#getType#0;class#GameObject#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Painter.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Painter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Painter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="35" selection-start="2957" selection-end="2957" vertical-scroll-proportion="1.0" vertical-offset="1154" max-vertical-offset="2025">
+            <state line="29" column="16" selection-start="1126" selection-end="1126" vertical-scroll-proportion="0.0" vertical-offset="243" max-vertical-offset="2106">
               <folding>
                 <element signature="e#345#369#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="comment.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/comment.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="42" selection-start="652" selection-end="652" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -120,9 +134,10 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/GameObject.java" />
+        <option value="$PROJECT_DIR$/src/Painter.java" />
+        <option value="$PROJECT_DIR$/src/comment.txt" />
         <option value="$PROJECT_DIR$/src/FormMain.java" />
         <option value="$PROJECT_DIR$/src/WorldLogic.java" />
-        <option value="$PROJECT_DIR$/src/Painter.java" />
       </list>
     </option>
   </component>
@@ -511,12 +526,13 @@
       <workItem from="1412321963671" duration="27000" />
       <workItem from="1412322340953" duration="2280000" />
       <workItem from="1412489886296" duration="1301000" />
-      <workItem from="1412507851218" duration="5162000" />
+      <workItem from="1412507851218" duration="5449000" />
+      <workItem from="1412519359015" duration="1520000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25149000" />
+    <option name="totallyTimeSpent" value="26956000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1288" height="994" extended-state="6" />
@@ -574,6 +590,46 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/FormMain.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="5" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3942">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WorldLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0" vertical-offset="486" max-vertical-offset="2565">
+          <folding>
+            <element signature="method#getTime#0;class#WorldLogic#0" expanded="true" />
+            <element signature="method#getFoodInBowl#0;class#WorldLogic#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GameObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="25" selection-start="1097" selection-end="1097" vertical-scroll-proportion="0.0" vertical-offset="1080" max-vertical-offset="1485">
+          <folding>
+            <element signature="method#getType#0;class#GameObject#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Painter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="62" selection-start="2615" selection-end="2615" vertical-scroll-proportion="0.0" vertical-offset="1782" max-vertical-offset="2025">
+          <folding>
+            <element signature="e#345#369#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FormMain.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FormMain.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="13" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3942">
           <folding />
         </state>
@@ -582,14 +638,19 @@
     <entry file="file://$PROJECT_DIR$/src/WorldLogic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="84" column="0" selection-start="2898" selection-end="2898" vertical-scroll-proportion="0.0" vertical-offset="2268" max-vertical-offset="2511">
-          <folding />
+          <folding>
+            <element signature="method#getTime#0;class#WorldLogic#0" expanded="true" />
+            <element signature="method#getFoodInBowl#0;class#WorldLogic#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GameObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="29" selection-start="1140" selection-end="1140" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="1431">
-          <folding />
+          <folding>
+            <element signature="method#getType#0;class#GameObject#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -604,9 +665,7 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_67/src.zip!/java/awt/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="13" selection-start="3472" selection-end="3472" vertical-scroll-proportion="0.0" vertical-offset="2916" max-vertical-offset="52785">
-          <folding />
-        </state>
+        <state line="108" column="13" selection-start="3472" selection-end="3472" vertical-scroll-proportion="0.0" vertical-offset="2916" max-vertical-offset="52785" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FormMain.form">
@@ -624,14 +683,19 @@
     <entry file="file://$PROJECT_DIR$/src/WorldLogic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="70" column="39" selection-start="2496" selection-end="2496" vertical-scroll-proportion="0.0" vertical-offset="1890" max-vertical-offset="2214">
-          <folding />
+          <folding>
+            <element signature="method#getTime#0;class#WorldLogic#0" expanded="true" />
+            <element signature="method#getFoodInBowl#0;class#WorldLogic#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GameObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="29" selection-start="1140" selection-end="1140" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="1431">
-          <folding />
+          <folding>
+            <element signature="method#getType#0;class#GameObject#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -646,9 +710,7 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_67/src.zip!/java/awt/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="13" selection-start="3472" selection-end="3472" vertical-scroll-proportion="0.0" vertical-offset="2916" max-vertical-offset="52785">
-          <folding />
-        </state>
+        <state line="108" column="13" selection-start="3472" selection-end="3472" vertical-scroll-proportion="0.0" vertical-offset="2916" max-vertical-offset="52785" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FormMain.form">
@@ -666,7 +728,9 @@
     <entry file="file://$PROJECT_DIR$/src/GameObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="29" selection-start="1140" selection-end="1140" vertical-scroll-proportion="0.0" vertical-offset="1161" max-vertical-offset="1431">
-          <folding />
+          <folding>
+            <element signature="method#getType#0;class#GameObject#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -681,9 +745,7 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_67/src.zip!/java/awt/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="13" selection-start="3472" selection-end="3472" vertical-scroll-proportion="0.0" vertical-offset="2916" max-vertical-offset="52785">
-          <folding />
-        </state>
+        <state line="108" column="13" selection-start="3472" selection-end="3472" vertical-scroll-proportion="0.0" vertical-offset="2916" max-vertical-offset="52785" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FormMain.form">
@@ -701,7 +763,9 @@
     <entry file="file://$PROJECT_DIR$/src/GameObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="29" selection-start="1140" selection-end="1140" vertical-scroll-proportion="0.0" vertical-offset="1161" max-vertical-offset="1431">
-          <folding />
+          <folding>
+            <element signature="method#getType#0;class#GameObject#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -716,9 +780,7 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_67/src.zip!/java/awt/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="13" selection-start="3472" selection-end="3472" vertical-scroll-proportion="0.0" vertical-offset="2916" max-vertical-offset="52785">
-          <folding />
-        </state>
+        <state line="108" column="13" selection-start="3472" selection-end="3472" vertical-scroll-proportion="0.0" vertical-offset="2916" max-vertical-offset="52785" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FormMain.form">
@@ -769,9 +831,7 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_67/src.zip!/java/awt/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="13" selection-start="3472" selection-end="3472" vertical-scroll-proportion="0.0" vertical-offset="5693" max-vertical-offset="51624">
-          <folding />
-        </state>
+        <state line="108" column="13" selection-start="3472" selection-end="3472" vertical-scroll-proportion="0.0" vertical-offset="5693" max-vertical-offset="51624" />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_67/src.zip!/java/awt/Color.java">
@@ -786,32 +846,51 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FormMain.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_67/src.zip!/java/awt/Window.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="5" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0" vertical-offset="810" max-vertical-offset="3402">
+        <state line="800" column="16" selection-start="28549" selection-end="28549" vertical-scroll-proportion="0.33290157" vertical-offset="19777" max-vertical-offset="108540">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/WorldLogic.java">
+    <entry file="file://$PROJECT_DIR$/src/comment.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0" vertical-offset="1620" max-vertical-offset="2538">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GameObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="25" selection-start="1097" selection-end="1097" vertical-scroll-proportion="0.0" vertical-offset="686" max-vertical-offset="1485">
+        <state line="7" column="42" selection-start="652" selection-end="652" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Painter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="35" selection-start="2957" selection-end="2957" vertical-scroll-proportion="1.0" vertical-offset="1154" max-vertical-offset="2025">
+        <state line="29" column="16" selection-start="1126" selection-end="1126" vertical-scroll-proportion="0.0" vertical-offset="243" max-vertical-offset="2106">
           <folding>
             <element signature="e#345#369#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GameObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="17" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1512">
+          <folding>
+            <element signature="method#getType#0;class#GameObject#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FormMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="91" selection-start="1900" selection-end="1900" vertical-scroll-proportion="0.0" vertical-offset="972" max-vertical-offset="1782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WorldLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="29" selection-start="1626" selection-end="1626" vertical-scroll-proportion="0.87738854" vertical-offset="556" max-vertical-offset="2700">
+          <folding>
+            <element signature="method#getTime#0;class#WorldLogic#0" expanded="true" />
+            <element signature="method#getFoodInBowl#0;class#WorldLogic#0" expanded="true" />
           </folding>
         </state>
       </provider>
